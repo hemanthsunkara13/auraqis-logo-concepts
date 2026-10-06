@@ -1,0 +1,14 @@
+{
+  "name": "auraqis-logo-concepts",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.mjs",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "echo build",
+    "start": "node server.mjs"
+  }
+}

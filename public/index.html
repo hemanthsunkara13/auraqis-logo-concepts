@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>AURAQIS · Identity Exploration · Round 02</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..700&family=Cinzel:wght@400..700&family=Cormorant+Garamond:wght@400;500;600&family=DM+Serif+Display&family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..700&family=Instrument+Serif:ital@0;1&family=Italiana&family=Josefin+Sans:wght@300..600&family=Jost:wght@300..600&family=Manrope:wght@200..800&family=Marcellus&family=Outfit:wght@200..700&family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&family=Space+Grotesk:wght@300..700&family=Syne:wght@400..800&family=Tenor+Sans&family=Unbounded:wght@300..700&display=swap"
+    />
+    <link rel="stylesheet" href="styles.css?v=3" />
+    <link rel="stylesheet" href="cards.css?v=3" />
+    <link rel="stylesheet" href="context.css?v=3" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="topbar-brand" href="#top">
+        <img src="../brand/mark-green.png" alt="" width="28" height="28" />
+        <span><b>AURAQIS</b> Identity Catalogue</span>
+      </a>
+      <nav class="topbar-nav" aria-label="Sections">
+        <a href="#foundation">Foundation</a>
+        <a href="#phase-1">Phase 1</a>
+        <a href="#phase-2">Phase 2</a>
+        <a href="#phase-3">Phase 3</a>
+        <a href="#context">In context</a>
+      </nav>
+      <button class="shortlist-pill" type="button" data-open-shortlist>Shortlist <span data-count>0</span></button>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Brand identity · Logo &amp; stationery exploration · Round 02</p>
+          <h1>Three directions for the next&nbsp;<i>AURAQIS</i> identity.</h1>
+          <p class="lede">
+            <b>Phase 1</b> keeps the marble mark you know and gives it new colour palettes and typefaces.
+            <b>Phase 2</b> explores new marks: architectural, contemporary, and made to move.
+            <b>Phase 3</b> brings them to the hand as business cards you can turn, light and inspect.
+          </p>
+          <div class="hero-stats">
+            <div><span>16</span>Phase 1 colour &amp; type studies</div>
+            <div><span>16</span>Phase 2 new marks</div>
+            <div><span>12</span>Phase 3 business cards</div>
+          </div>
+        </div>
+        <figure class="hero-stage" data-hero-stage>
+          <div class="hero-stage-art" data-hero-art></div>
+          <figcaption data-hero-caption></figcaption>
+          <div class="hero-progress"><i data-hero-progress></i></div>
+        </figure>
+      </section>
+
+      <section class="sheet" id="foundation">
+        <header class="sheet-head">
+          <span class="sheet-no">Sheet 01</span>
+          <h2>Foundation</h2>
+          <p>Every concept is built from the website’s existing colours and type, so the new logo sits naturally across the site, its 3D scenes and its print materials.</p>
+        </header>
+        <div class="foundation">
+          <div class="swatches" data-swatches></div>
+          <div class="type-specimens" data-specimens></div>
+        </div>
+      </section>
+
+      <section class="sheet" id="phase-1">
+        <header class="sheet-head">
+          <span class="sheet-no">Sheet 02</span>
+          <h2>Phase 1 <i>· Same mark, new voice</i></h2>
+          <p>The original marble swirl is unchanged. Each study pairs it with a new palette and a new wordmark typeface. Use <b>Replay</b> to watch the reveal and <b>Layout</b> to switch to a horizontal lockup.</p>
+        </header>
+        <div class="grid grid-p1" data-grid="p1"></div>
+      </section>
+
+      <section class="sheet" id="phase-2">
+        <header class="sheet-head">
+          <span class="sheet-no">Sheet 03</span>
+          <h2>Phase 2 <i>· New marks</i></h2>
+          <p>New marks, each built on a 120-unit construction grid and designed to animate. Pick a colourway under each mark. The size strip shows how it holds up at favicon scale.</p>
+        </header>
+        <div class="grid grid-p2" data-grid="p2"></div>
+      </section>
+
+      <section class="sheet" id="phase-3">
+        <header class="sheet-head">
+          <span class="sheet-no">Sheet 04</span>
+          <h2>Phase 3 <i>· In the hand</i></h2>
+          <p>Twelve business cards built as real 3D objects, with true board thickness, painted edges, foils that catch the light, embossing and paper texture. Move your cursor to shine a lamp across a card and click to flip it. Choose <b>Inspect in 3D</b> to turn a card freely, rake light across its surface or examine the paper through a ×3 loupe.</p>
+        </header>
+        <div class="grid grid-p3" data-grid="p3"></div>
+      </section>
+
+      <section class="sheet" id="context">
+        <header class="sheet-head">
+          <span class="sheet-no">Sheet 05</span>
+          <h2>In context <i>· Living with the mark</i></h2>
+          <p>Choose any concept to see it at work: a website intro, a social profile, a business card floating above its own stack, reception signage, a site hoarding, frosted glass, stationery and app icons. Switch between day, dusk and night.</p>
+        </header>
+        <div class="context-controls">
+          <label for="context-select">Concept</label>
+          <select id="context-select" data-context-select></select>
+          <div class="context-pals" data-context-pals></div>
+          <div class="seg-time" role="group" aria-label="Time of day">
+            <button type="button" data-ambient="day" aria-pressed="true">Day</button>
+            <button type="button" data-ambient="dusk" aria-pressed="false">Dusk</button>
+            <button type="button" data-ambient="night" aria-pressed="false">Night</button>
+          </div>
+        </div>
+        <div class="mockups" data-mockups data-time="day">
+          <div class="mock mock-browser">
+            <div class="browser-bar"><i></i><i></i><i></i><span class="browser-tab"><span data-slot="favicon"></span>AURAQIS · Design &amp; Build</span></div>
+            <div class="browser-nav">
+              <span class="browser-logo" data-slot="row"></span>
+              <nav><span>Projects</span><span>Services</span><span>Interiors</span><span>About</span><span class="cta">Contact</span></nav>
+            </div>
+            <div class="browser-hero" style="background-image: url(../images/site/site-frame-03.jpg)">
+              <p>Future-ready spaces,<br /><i>designed &amp; built.</i></p>
+            </div>
+            <div class="loader" data-slot="loader"><div class="loader-art"></div><i class="loader-bar"></i></div>
+            <button type="button" class="chip-btn mock-replay" data-replay-intro>Replay intro</button>
+            <span class="mock-label">Website · intro loader</span>
+          </div>
+          <div class="mock mock-phone">
+            <div class="phone"><div class="phone-screen" data-slot="phone"></div></div>
+            <span class="mock-label">Social profile</span>
+          </div>
+          <div class="mock mock-levitate" data-slot="levitate"><span class="mock-label">Business card · levitation stack</span></div>
+          <div class="mock mock-sign" data-slot="sign">
+            <i class="sign-lights"></i>
+            <div class="sign-art"></div>
+            <span class="mock-label">Reception wall · stand-off letters</span>
+          </div>
+          <div class="mock mock-hoarding">
+            <div class="hoard" data-slot="hoarding">
+              <div class="hoard-photo" style="background-image: url(../images/site/site-frame-02.jpg)"></div>
+              <i class="hoard-sky"></i>
+              <div class="hoard-panel">
+                <div class="hoard-logo"></div>
+                <div class="hoard-copy">Something remarkable<br />is rising here.<small>Design &amp; build by AURAQIS</small></div>
+                <i class="hoard-lamps"></i>
+              </div>
+            </div>
+            <span class="mock-label">Site hoarding</span>
+          </div>
+          <div class="mock mock-glass">
+            <div class="glass" data-slot="glass">
+              <i class="glass-room"></i>
+              <div class="glass-band"><div class="glass-logo"></div></div>
+              <i class="glass-frame"></i>
+              <i class="glass-handle"></i>
+            </div>
+            <span class="mock-label">Frosted glass door</span>
+          </div>
+          <div class="mock mock-stationery">
+            <div class="st" data-slot="stationery"></div>
+            <span class="mock-label">Stationery</span>
+          </div>
+          <div class="mock mock-icons">
+            <div class="ic" data-slot="icons"></div>
+            <span class="mock-label">App icon · favicon</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p>Shortlist your favourites with <b>Shortlist</b>, then use <b>Copy shortlist</b> to send feedback. Every logo concept can be downloaded as an SVG. Static files are in <code>public/logo-concepts/phase-1</code> and <code>phase-2</code>.</p>
+      <p class="foot-note">Concept presentation. Final artwork will be redrawn, kerned and vectorised for production after selection. Card stocks and finishes are simulated on screen; we’ll confirm them with printed samples. “Your Name” and “Designation” are placeholders.</p>
+    </footer>
+
+    <aside class="shortlist" data-shortlist aria-live="polite" hidden>
+      <div class="shortlist-inner">
+        <b>Shortlist</b>
+        <ul data-shortlist-list></ul>
+        <button type="button" data-copy-shortlist>Copy shortlist</button>
+        <button type="button" class="ghost" data-close-shortlist aria-label="Close shortlist">Close</button>
+      </div>
+    </aside>
+
+    <script src="concepts.js?v=3"></script>
+    <script src="cards.js?v=3"></script>
+    <script src="app.js?v=3"></script>
+  </body>
+</html>
